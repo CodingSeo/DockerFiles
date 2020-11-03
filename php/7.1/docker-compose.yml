@@ -1,0 +1,9 @@
+version: "3.7"
+
+services:
+  php-xdebug:
+    build: .
+    volumes:
+      - ./:/var/www/html/
+    ports:
+      - "8000:80"
