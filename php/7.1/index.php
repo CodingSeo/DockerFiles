@@ -1,7 +1,4 @@
 <?php
-echo 'test';
-echo phpinfo();
-exit;
 
 require_once __DIR__.'/Person.php';
 
